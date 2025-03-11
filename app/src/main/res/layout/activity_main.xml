@@ -1,17 +1,21 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="16dp">
 
     <EditText
         android:id="@+id/textViewer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@android:color/transparent"
-        android:textSize="18sp"
+        android:background="#FF0000"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
         android:padding="16dp"
         android:inputType="textMultiLine"
         android:gravity="top|start"
-        android:scrollbars="vertical"/>
+        android:scrollbars="vertical"
+        android:hint="Type something here..." />
 
 </LinearLayout>
